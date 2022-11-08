@@ -1,0 +1,18 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+#Embutido {
+    background-color: lightskyblue;
+    text-align: center;
+}
+#descripción {
+    background-color: chartreuse;
+}
+#natural {
+    color: chocolate;
+}
+#cursiva {
+    font-style: italic;
+    color: red;
+}

@@ -1,0 +1,21 @@
+h1,h2,p,div {
+    color: aqua;
+    font-size: xx-large;
+    border-width: 1px;
+    border: solid; 
+    text-align: center;
+}
+
+#idH1tercero {
+    color: brown;
+}
+
+    .claseBordeRosaPunteado{
+    border-width: 2px;
+    border-color: pink;
+    border-style: dotted;
+}
+
+div span {
+    color: green;
+}

@@ -1,0 +1,20 @@
+body {background-color: aqua;}
+    h3 {
+        
+        list-style: square;
+        border-color: black;
+        border-width: 1px; border: solid;
+        text-align: center;
+        color: blue;
+        font-size: 60px;
+    }
+    ol,li,ul {
+        color: blueviolet;
+        text-align: center;
+    }
+    p i b {
+        color: chartreuse;
+    }
+    .cita { 
+        font-size: 50px;
+        }

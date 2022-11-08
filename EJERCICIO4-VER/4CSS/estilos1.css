@@ -1,0 +1,21 @@
+.liverde {
+    list-style: square;
+    color: blue;
+}
+.letraazul {
+    list-style-type: lower-alpha;
+    color: blueviolet;
+}
+.rojo {
+    color: crimson;
+}
+.Tipoletra {
+    color: cornflowerblue;
+}
+#divuno {
+   color: brown;
+}
+#div1 {
+    color: blue;
+    
+}

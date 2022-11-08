@@ -1,0 +1,105 @@
+table {
+
+    width: 70%;
+    margin: 0 auto;
+
+    border: 2px solid palevioletred;
+}
+
+tr,
+th,
+td {
+    border: 2px solid palevioletred;
+    padding: 2%;
+    text-align: center;
+}
+
+.fondo {
+    background-color: bisque;
+    margin-left: 0%;
+    width: 50%;
+    float: left;
+    height: 291px;
+}
+
+.tabla2 {
+
+    border-collapse: collapse;
+    border: 2px solid deeppink;
+}
+
+.fondo1 {
+    background-color: aqua;
+    width: 50%;
+    float: right;
+    margin-right: 0%;
+}
+
+caption {
+    color: deeppink;
+}
+
+.fondo2 {
+    background-color: aqua;
+    width: 50%;
+    clear: both;
+    margin-left: 0%;
+    float: left;
+    height: 339px;
+}
+
+.tabla3 {
+    border: 2px solid deeppink;
+    border-collapse: collapse;
+}
+
+.col1 {
+    background-color: crimson;
+}
+
+.col2 {
+    background-color: chartreuse;
+}
+
+.fondo3 {
+    background-color: bisque;
+    width: 50%;
+    
+    margin-right: 0%;
+    float: right;
+}
+
+.tabla4 {
+    border: 2px solid deeppink;
+    
+}
+
+thead {
+    background-color: crimson;
+    border: solid 2px ;
+}
+
+tfoot {
+    background-color: blueviolet;
+    border: solid 2px ;
+}
+
+.linea1 {
+    background-color: blueviolet;
+    border: solid 2px ;
+    padding: 18%;
+}
+
+.linea2 {
+    background-color: beige;
+    border: solid 2px ;
+}
+.line1 {
+border: solid 2px ;
+}
+.line2 {
+    border: solid 2px ;   
+}
+.line3 {
+    border: solid 2px ;  
+}

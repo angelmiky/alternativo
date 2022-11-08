@@ -1,0 +1,72 @@
+body {
+    background-color: grey;
+}
+h1 {
+    text-align: center;
+}
+#primer {
+border-style:double;
+text-align: center;
+width: 34%;
+margin: 0 auto;
+}
+.clas1 {
+    color:red
+}
+.azul {
+    color: blue;
+}
+.amarillo {
+    color: yellow;
+}
+.morado {
+    color:blueviolet ;
+}
+.verde {
+    color:green;
+}
+#uno {
+    text-align: center;
+}
+#bloque1 {
+float: left;
+width: 30%;
+}
+#bloque2 {
+float: right;
+width: 30%;
+}
+.rosa1 {
+background-color: pink;
+}
+.rosa2 {
+background-color: pink;
+}
+#bloquegen {
+    margin: 0 auto;
+    width: 70%;
+    border-bottom: 2px groove white;
+    overflow: hidden;
+}
+h2 {
+    text-align: center;
+}
+.pedri {
+    color: red;
+}
+.pedra {
+    color: blue;
+}
+.pedre {
+    color: blueviolet;
+}
+.pedru {
+    color: yellow;
+}
+.pedro {
+    color: green;
+}
+#img {
+   font-size: 30%;
+   size: 30%;
+}

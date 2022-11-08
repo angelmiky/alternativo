@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+#divcontenedor {
+    color: blue;
+    overflow: hidden;
+    
+    background-color: aquamarine;
+    width: 70%;
+    margin: 0 auto;
+}
+#div1 {
+    overflow: hidden;
+    float: left;
+    color: blueviolet;
+    background-color: coral;
+    background-position: 40px;
+    width: 33%;
+}
+#div2 {
+    float: left;
+    width: 33%;
+    background-color: blanchedalmond;
+}
+#div3 {
+    float: left;
+    width: 33%;
+    background-color: chartreuse;
+}
+#divuno {
+    background-color: coral;
+}
+h2 {
+    background-color: coral;
+}

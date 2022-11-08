@@ -1,0 +1,17 @@
+<!--Esto servira para indicar que no es una etiqueta sino atributo propio del cuerpo-->
+<style>
+    body{
+    background-color: aqua;
+    text-align: left;
+    }
+    h1,h2{
+    background-color: chartreuse;
+    }
+</style>
+<style  type="text/css">
+    h1,h2{
+        border-width: 1px; border: double;  
+        text-align: center; 
+        color: red;
+    }
+</style>

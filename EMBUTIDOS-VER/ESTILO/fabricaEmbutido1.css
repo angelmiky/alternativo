@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+#Embutido {
+    background-color: lightskyblue;
+    text-align: center;
+}
+#descripción {
+    background-color: chartreuse;
+    float: left;
+    width: 60%;
+    border: 2px solid;
+}
+#natural {
+    color: chocolate;
+}
+#cursiva {
+    font-style: italic;
+    color: red;
+}
+#concreta {
+    background-color: chartreuse;
+    float: right;
+    width: 35%; 
+    border: 1px solid;
+}
+#pedido {
+    border: 1px solid;
+}
+#ultimo {
+    border: 1px solid;
+}

@@ -1,0 +1,14 @@
+form {
+    width: 25%;
+    border: 2px solid yellow;
+    margin: auto;
+}
+
+input {
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 2%;
+}
+label {
+    margin-left: 2%;
+}

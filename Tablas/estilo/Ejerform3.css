@@ -1,7 +1,8 @@
 form {
-    width: 25%;
+    width: 50%;
     border: 2px solid yellow;
-    margin: auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 input {
@@ -9,6 +10,18 @@ margin-top: 2%;
 margin-bottom: 2%;
 margin-left: 2%;
 }
-label {
+label, b {
     margin-left: 2%;
+  
 }
+#formu2 {
+border: 2px blue dashed;
+width: 40%;
+margin: 0 auto;
+}
+  #enviar {
+    text-align: center;
+  }
+
+
+  

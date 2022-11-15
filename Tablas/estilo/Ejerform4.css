@@ -1,0 +1,15 @@
+form {
+    width: 25%;
+    text-align: center;
+    border: 2px solid blueviolet;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.titu {
+    margin-top: 5%;
+}

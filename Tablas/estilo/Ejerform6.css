@@ -1,0 +1,29 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+margin-top: 1%;
+margin-bottom: 1%;
+margin-left: 2%;
+}
+label, b {
+    margin-left: 2%;
+  
+}
+#formu2 {
+border: 2px blue dashed;
+width: 40%;
+margin: 0 auto;
+}
+  #enviar {
+    text-align: center;
+  }
+fieldset {
+    border: 1px yellow dashed;
+}
+.bordi {
+    border: solid 1px;
+}

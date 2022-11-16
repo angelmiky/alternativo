@@ -1,6 +1,9 @@
 form {
     width: 50%;
+<<<<<<< HEAD
     border: 2px solid yellow;
+=======
+>>>>>>> 05c6acf5a90c1f70c7741a0d8d6cbc2284ec1a8d
     margin: 0 auto;
     text-align: center;
 }
@@ -22,4 +25,13 @@ margin: 0 auto;
   #enviar {
     text-align: center;
   }
+<<<<<<< HEAD
 
+=======
+fieldset {
+    border: 1px yellow dashed;
+}
+.bordi {
+    border: solid 1px;
+}
+>>>>>>> 05c6acf5a90c1f70c7741a0d8d6cbc2284ec1a8d

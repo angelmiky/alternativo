@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,52 +8,102 @@
     <title>Horario DAW</title>
     <link rel="stylesheet" href="../Estilo/Examen.css">
 </head>
+
 <body>
     <div id="cuadro1">
         <h1>Técnico Superior en Desarrollo de Aplicaciones Web</h1><br>
         <ul class="letra">--Ciclo superior--</ul>
     </div>
-    <div id="cuadro2">
-        <h1 class="titulotabla1">HORARIO 1º DAW</h1>
-        <table class="tabla1">
-            <tr>
-                <th>Horas</th>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miercoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-            </tr>
-            <tr>
-                <td>8:15-9:10</td>
-                <td>FOL</td>
-                <td>FOL</td>
-                <td>LLMM</td>
-                <td>Programación</td>
-                <td>LLMM</td>
-            </tr>
-            <tr>
-                <td>9:10-10:05</td>
-                <td rowspan="2">Programación</td>
-                <td>BBDD</td>
-                <td>--</td>
-            </tr>
-            <tr>
-                <td>10:05-1130</td>
+    <div id="cuadrogrande">
+        <div id="cuadro2">
+            <h1 class="titulotabla1">HORARIO 1º DAW</h1>
+            <table class="tabla1">
+                <tr>
+                    <th>Horas</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>8:15-9:10</td>
+                    <td>FOL</td>
+                    <td>FOL</td>
+                    <td>LLMM</td>
+                    <td rowspan="3">Programación</td>
+                    <td rowspan="2">LLMM</td>
+                </tr>
+                <tr>
+                    <td>9:10-10:05</td>
+                    <td rowspan="2">Programación</td>
+                    <td>BBDD</td>
+                    <td rowspan="2">BBDD</td>
 
-                <td>LLMM</td>
-                <td>3</td>
-                <td>Septiembre</td>
-            </tr>
-            <tr>
-                <td>Roberto</td>
-                <td>No</td>
-                <td>--</td>
-                <td>--</td>
-            </tr>
-            </tr>
-        </table>
 
+                </tr>
+                <tr>
+                    <td>10:05-1100</td>
+
+                    <td>LLMM</td>
+
+
+                    <td>EED</td>
+                </tr>
+                <tr>
+                    <td>11:00 -11:30</td>
+                    <td colspan="5"></td>
+
+
+
+
+                </tr>
+                <tr>
+                    <td>11:30-12:25</td>
+                    <td>SSII</td>
+                    <td>Programación</td>
+                    <td>Programación</td>
+                    <td>FOL</td>
+                    <td>EED</td>
+                </tr>
+                <tr>
+                    <td>12:25-13:20</td>
+                    <td>BBDD</th>
+                    <td rowspan="2">SSII</td>
+                    <td>SSII</td>
+                    <td rowspan="2">BBDD</td>
+                    <td rowspan="2">SSII</td>
+                </tr>
+                <tr>
+                    <td>13:20-14:15</td>
+                    <td>EED</th>
+
+                    <td>Programación</td>
+
+
+                </tr>
+            </table>
+        </div>
+        <div id="cuadro3">
+            <h1 class="tituloformu1">MAS INFORMACIÓN</h1>
+            <ul class="cabezaformu1">Solicita mas información rellenando el siguiente cuestionario: </ul>
+            <form method="POST">
+                <label form="Nombre">Nombre:</label>
+                <input type="text" name="usuario"> <br>
+                <label form="Email">Correo electrónico:</label>
+                <input type="text" name="correo" checked><br>
+                <label class="titu">Preguntas:<br>
+                    <textarea class="cuadrotext1" rows="10" cols="85"></textarea><br>
+                    <input class="boton1" type="button" value="Enviar">
+            </form>
+        </div>
     </div>
+    <hr class="linea">
+    <div id="bloquepdf">
+        <h1 class="titulopdf">PLAN DE ESTUDIOS</h1><br>
+        <iframe src="../DocPdf/planEstudios (1).pdf"></iframe>
+    </div>
+    <hr class="linea2">
 </body>
+
 </html>

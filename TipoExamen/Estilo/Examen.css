@@ -1,6 +1,7 @@
 #cuadro1 {
     border: solid 3px brown;
     color: brown;
+    margin-bottom: 3%;
 }
 h1, ul {
     text-align: center;
@@ -14,11 +15,83 @@ table {
    border-collapse: collapse
 }
 tr,td {
-border: 1px solid brown;
-border-collapse: collapse;
+    border: 1px solid brown;
+    border-collapse: collapse;
+    padding: auto;
 }
 .titulotabla1 {
     color: brown;
     text-align: left;
+    margin-bottom: 4%;
+}
+.tabla1 {
+    text-align: center;
+   
+}
+#cuadro2 {
+    float: left;
+    margin-left: 3%;
+}
+form {
+    text-align: left;
+}
+.tituloformu1 {
+    color: brown;
+    text-align: left;
+    margin-bottom: 3.5%;
+}
+.titu {
+    margin-top: 5%;
+}
+.cabezaformu1 {
+font-size: large;
+}
+#cuadro3 {
+    float: right;
+    width: 50%;
+    margin-right: 3%;
+    overflow: hidden;
+}
+.cuadrotext1 {
+    margin-left: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+label {
+    margin-top: 1%;
     margin-bottom: 1%;
+} 
+input {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+.boton1 {
+    margin-left: 0%;
+}
+.cabezaformu1 {
+    text-align: left;
+}
+#cuadrogrande {
+
+}
+.linea {
+    clear: both;
+    margin-top: 4%;
+    size: 3px;
+    color: brown;
+}
+.titulopdf {
+    text-align: left;
+    color: brown;
+
+}
+iframe {
+    width: 98%;
+height: 400px;
+}
+.linea2 {
+    clear: both;
+    size: 3px;
+    color: brown;
 }

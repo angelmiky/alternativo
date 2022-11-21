@@ -75,16 +75,16 @@ input {
 #cuadrogrande {
 
 }
-.linea {
+.linea1 {
     clear: both;
     margin-top: 4%;
-    size: 3px;
-    color: brown;
+    border-style: solid ;
+    border-color: brown;
 }
 .titulopdf {
     text-align: left;
     color: brown;
-
+margin-top: 3%;
 }
 iframe {
     width: 98%;
@@ -92,6 +92,11 @@ height: 400px;
 }
 .linea2 {
     clear: both;
-    size: 3px;
+   
+    border-color: brown;
+}
+.titulomap1 {
+    text-align: left;
     color: brown;
+    margin-top: 3%;
 }

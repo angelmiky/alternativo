@@ -7,3 +7,16 @@ h2 {
     height: 40%;
     float: right;
 }
+#bloque1 {
+    border: solid 1px;
+}
+#bloque2 {
+    border: dotted yellow;
+   margin-left: 4%;
+   margin-right: 4%;
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+.titulo1 {
+    text-align: center;
+}

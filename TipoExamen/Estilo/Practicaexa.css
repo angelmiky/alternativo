@@ -20,6 +20,7 @@ h2 {
 .titulo1 {
     text-align: center;
 }
+<<<<<<< HEAD
 #cuadrito {
     float: left;
     margin-top: 1%;
@@ -36,4 +37,15 @@ h2 {
 }
 label {
     text-align: right;
+=======
+label {
+    width: 50%;
+}
+input {
+    width: 10%;
+    
+}
+#uno {
+    width: 100%;
+>>>>>>> cebfbd4183a4f35e9d1ffa14cde44b6c06e57a41
 }

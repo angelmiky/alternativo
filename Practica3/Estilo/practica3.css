@@ -1,0 +1,63 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+tr, td, td {
+    border: solid 1px;
+    
+}
+.primercelda {
+    background-color: dimgrey;
+}
+#bloque1 {
+    float: right;
+    width: 40%;
+    height: 300px;
+}
+#bloque2 {
+    float: left;
+    width: 40%;
+    height: 300px;
+}
+iframe {
+    width: 120%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 30%;
+    height: 250px;
+}
+.video1 {
+    margin-right: 30%;
+    height: 250px;
+    width: 70%;
+}
+#formu1 {
+    background-color: grey;
+    box-sizing: border-box;
+    border-radius: 2em;
+    clear: both;
+    width: 20%;
+    margin: 0 auto;
+}
+form {
+    text-align: center;
+}
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.titu {
+clear: both;
+}
+img {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}

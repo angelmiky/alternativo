@@ -1,0 +1,11 @@
+#bloque {
+    background-color: grey;
+}
+#bloque1 {
+border: 1px red ;
+box-sizing: border-box;
+border-radius: 2em;
+}
+#bloque2 {
+
+}

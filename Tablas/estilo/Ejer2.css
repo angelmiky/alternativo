@@ -2,12 +2,13 @@ table {
 
     width: 70%;
     margin: 0 auto;
-
     border: 2px solid palevioletred;
 }
 
 tr,
 th,
+   
+
 td {
     border: 2px solid palevioletred;
     padding: 2%;
@@ -43,7 +44,6 @@ caption {
     background-color: aqua;
     width: 50%;
     clear: both;
-    margin-left: 0%;
     float: left;
     height: 339px;
 }
@@ -64,8 +64,6 @@ caption {
 .fondo3 {
     background-color: bisque;
     width: 50%;
-    
-    margin-right: 0%;
     float: right;
 }
 

@@ -1,12 +1,9 @@
 table {
     border: 1px solid black;
-    border-style: double;
+  
 }
 tr, th, td {
     border: 1px solid black; 
-    border-style: double;
-}
-.celda {
-    padding: 40%;
+   
 }
 

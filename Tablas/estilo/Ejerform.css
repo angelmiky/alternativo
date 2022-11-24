@@ -4,7 +4,16 @@ form {
     text-align: center;
     border: 2px solid blueviolet;
     margin: auto;
+    margin-top: 5%;
 }
 h1 {
     text-align: center;
+}
+label {
+    
+   
+}
+input {
+    margin-top: 5%;
+    margin-left: 5%;
 }

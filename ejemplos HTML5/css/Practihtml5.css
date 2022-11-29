@@ -1,11 +1,51 @@
 #bloque {
     background-color: grey;
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+text-align: center;
+margin-bottom: 0%;
+color: red;
 }
 #bloque1 {
-border: 1px red ;
-box-sizing: border-box;
-border-radius: 2em;
+width: 40%;
+margin-top: 0%;
+float: left;
+}
+#bloque1-1 {  
+    height: 50px;
+}
+#bloque1-2 {
+    height: 40px;
+}
+#bloque1-3 {
+    height: 150px;
+   float: left;
+   width: 48%;
+}
+#bloque1-4 {
+    height: 150px;
+   width: 48%;
+   float: right;
+}
+#bloque1-5 {
+    height: 30px;
+   
+   clear: both;
+}
+.estilo {
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 1em;
+    color: red;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1% ;  
+    margin-right: 1%;
 }
 #bloque2 {
-
+width: 40%;
+margin-top: 0%;
+float: right;
 }

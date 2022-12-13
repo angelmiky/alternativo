@@ -1,0 +1,86 @@
+#bloque {
+width: 80%;
+margin-left: 25%;
+height: 100px;
+}
+header {
+    height: 100px;
+}
+#morado {
+    background-color: blueviolet;
+    width: 10%;
+    float: left;
+    height: 50px;
+    padding: 1%;
+}
+nav {
+    background-color: cornflowerblue;
+    height: 76px;
+    width: 30%;
+    float: left;
+    margin-left: 0.3%;
+}
+p {
+    text-align: center;
+}
+span {
+    text-align: center;
+    float: left;
+}
+#estrella {
+    float: left;
+    width: 10%;
+    background-color: blue;
+    text-align: center;
+    height: 76px;
+    margin-left: 0.3%;
+}
+img {
+    width: 20%;
+    height: 20px;
+    margin-left: 40%;
+    margin-top: 15%;
+    margin-bottom: 1%;
+}
+#telefono {
+    width: 10%;
+    float: left;
+    background-color: blue;
+    margin-left: 0.3%;
+    height: 76px;
+}
+p {
+    margin-top: 0%;
+}
+#uno {
+    border: solid red;
+    background-color: yellow;
+    clear: both;
+    width: 60%;
+    height: 400px;
+}
+.marillo {
+    background-color: chocolate;
+    width: 50%;
+    height: 80px;
+    margin-bottom: 2%;
+   
+}
+#relleno {
+float: left;
+}
+#relleno1 {
+float: left;
+}
+#relleno2 {
+float: left;
+
+}
+#cuadro1 {
+    float: left;
+    width: 70%;
+}
+#cuadro2 {
+    float: right;
+    width: 90%;
+}

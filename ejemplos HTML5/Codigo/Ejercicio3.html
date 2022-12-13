@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,52 @@
     <title>Ejercicio 3</title>
     <link rel="stylesheet" href="../css/Ejercicio3.css">
 </head>
+
 <body>
     <form action="#">
-<h1>CORPOLAM</h1>
-<h2>Coorporación Latinoamericana</h2>
-<h1>SERVIVIOS GENERALES</h1>
-<label for="tipo">Tipo de servicio</label>
-<select name="tipo" id="tipo">
-    <option value="opcion0"selected></option>
-    <option value="opcion1">Pintura</option>
-</select>
-<input type="text" 
-
-
+        <h1>CORPOLAM</h1>
+        <h2>Coorporación Latinoamericana</h2>
+        <h1>SERVIVIOS GENERALES</h1>
+        <h2>Servicios de reformas</h2>
+        <label for="tipo">Tipo de servicio</label>
+        <select name="tipo" id="tipo">
+            <option value="opcion0" selected></option>
+            <option value="opcion1">Pintura</option>
+            <option value="opcion1">Albañilería</option>
+            <option value="opcion1">Eléctricidad</option>
+            <option value="opcion1">Carpintería</option>
+            <option value="opcion1">Fontanería</option>
+        </select>
+        <h2>Servicios de elaboración de planos</h2>
+        <label for="tipo">Tipo de servicio</label>
+        <select name="tipo" id="tipo">
+            <option value="opcion0" selected></option>
+            <option value="opcion1">Planos en general</option>
+            <option value="opcion1">Planos de despecie</option>
+            <option value="opcion1">Planos para fabricacción</option>
+            <option value="opcion1">Planos de instalaciones</option>
+            <option value="opcion1">Planos de cimentación</option>
+        </select>
+        <h2>Servicios de mudanzas</h2>
+        <label for="tipo">Tipo de servicio</label>
+        <select name="tipo" id="tipo">
+            <option value="opcion0" selected></option>
+            <option value="opcion1">Mudanza</option>
+            <option value="opcion1">Armado de muebles</option>
+            <option value="opcion1">Embalaje</option>
+        </select>
+        <h2>Introduzca la dirección de su domicilio</h2>
+        Provincia: <input type="text" required><br><br>
+        Calle o avenida: <input type="text" required><br><br>
+        Número: <input type="number" required minlength="1" 
+        maxlength="250"><br><br>
+        Piso: <input type="number"><br><br>
+        Puerta: <input type="number"><br><br>
+        <label>Email</label>
+        <input type="email" placeholder="Ej.: angelmiky708@gmail.com" 
+        required><br><br>
+        Telefono: <input type="number" pattern="\d{9}" >
     </form>
 </body>
+
 </html>

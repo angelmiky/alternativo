@@ -1,0 +1,41 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+header {
+    margin:  0 auto;
+    width: 30%;
+    background-color: blueviolet;
+    margin-bottom: 1%;
+}
+#titu {
+    width: 30%;
+    border: solid blueviolet 1px;
+    text-align: center;
+    margin: 0 auto;
+}
+span {
+    color: blueviolet;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+label {
+margin-right: 3%;
+}
+input {
+    margin-top: 1%;
+    margin-bottom: 1%;   
+}
+video {
+    width: 50%;
+    height: 200%;
+    margin-left: 30%;
+}
+#tercero {
+    border: solid blueviolet 1px;
+    margin: 0 auto;
+    width: 60%;
+}
+#boton {
+   margin-left: 40%;
+}

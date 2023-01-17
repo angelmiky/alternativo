@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de examen</title>
+    <link rel="stylesheet" href="../Estilo/Examenparct.css">
+</head>
+<body>
+    <h1>MUNDIAL DE BALONMANO POLONIA-SUECIA 2023</h1>
+    <header>
+    <img src="../Imagen/logo_dark_bg_trans (1).webp">
+    </header>
+    <div id="titu">
+<a href="Alta.html"><span>HOME</span></a>
+<a href="Alta.html"><span>JUGADORES</span></a>
+<a href="Alta.html"><span>EQUIPOS</span></a>
+    </div>
+    <div id="primero">
+    <form action="../Codigo/Alta.html" target="_blank">
+        <fieldset>
+            <legend>Nuevo jugador</legend>
+            <label>Nombre</label>
+            <input type="name" id="name"pattern="([A-Z]([a-z]+){1})(\s)+([A-Z]([a-z]+){1})"  required ><br>
+            <label>Edad</label>
+            <input type="number" id="Edad" placeholder="16-45" min="16" max="45" step="1" required><br>
+            <label>Equipo</label>
+            <select type="name" id="name" required>
+                <option value="opcion0" > Dinamarca </option> 
+                <option value="opcion1" selected> España </option> 
+                <option value="opcion2"> Francia </option>
+                <option value="opcion3"> Noruega </option>
+                <option value="opcion4"> Polonia </option>   
+            </select><br>
+            <label>Color primera equipación</label>
+            <input class="color" type="color"><br>
+            <input type="submit" value="Dar de alta"><br>
+        </fieldset>
+    </form>
+    <h3><span class="subtitu">Últimos jugadores añadidos</span></h3>
+    <ul>
+        <li>Eric Johansson (22 años, Suecia)</li>
+        <li>Juri Knor (22 años, Alemania)</li>
+        <li>Simón Pytlick (22 años, Dinamarca)</li>
+        <li>Kiko Costa (17 años, Portugal)</li>
+        <li>Domen Makue (22 años, Eslovenia)</li>
+        </li>
+    </ul>
+</div>
+<div id="segundo">
+<video controls>
+    <source src="../Video/videoexamen.mp4" type="video/mp4">
+</video>
+</div>
+<div id="tercero">
+    <form action="#">
+<label>Introduce tu correo y nos pondremos en contactos contigo</label> 
+<input type="email" id="email" placeholder="corre@valido.com" pattern="([A-Z|a-z]+|\d+|.)+@[A-Z|a-z]+.+([A-Z|a-z])+"><br>
+<input id="boton" type="submit" value="Enviar">
+    </form>
+</div>
+</body>
+</html>
